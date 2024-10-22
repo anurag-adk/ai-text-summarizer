@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">   
+  </head>
+  <body>
+    <h1>AI Text Summarizer</h1>
+    <p>Your friendly neighbourhood app that summarizes huge texts into readable chunk<br>
+      because with great power comes great responsibilities!</p>
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Enter the text you want to summarize (Length must be between 200-100,000 characters)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+      <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+    <section class="cta-section">
+      <div class="cta-content">
+        <div class="cta-text">
+        <h2>Curious how I built the app?</h2>
+        <p>I built this app as a part of Postman's Student Program using Facebook's<br>
+            'bart-large-cnn' model, a powerful LLM designed for text summarization<br>
+            accessed via the Hugging Face Inference
+        </p>
+          <!-- <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=CGC&utm_medium=referral&utm_source=internal&utm_term=pbl-skilljar&utm_content=pbl_summariser_app" class="cta-button" target="_blank" rel="noopener nofollow">Register as a student</a> -->
+        </div>
+        <img src="images/learning.png"></img>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
