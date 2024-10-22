@@ -1,5 +1,5 @@
 const express = require("express");
-const summarizeText = require("./server/summarize.js");
+const summarizeText = require("./summarize.js");
 require("dotenv").config();
 
 const PORT = process.env.PORT;
