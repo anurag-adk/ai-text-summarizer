@@ -1,2 +1,5 @@
-# ai-text-summarizer
-An AI-powered app that summarizes text to provide concise and relevant information
+# AI Text Summarizer
+
+## 👷🚧🛠️🔜🏗️
+
+## ![Typing SVG](https://readme-typing-svg.demolab.com?font=roboto&pause=1000&color=36BCF7FF&width=435&lines=Under+Construction+.+.+.)
