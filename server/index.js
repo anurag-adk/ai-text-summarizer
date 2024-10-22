@@ -1,5 +1,5 @@
 const express = require("express");
-const summarizeText = require("./summarize.js");
+const summarizeText = require("./server/summarize.js");
 require("dotenv").config();
 
 const PORT = process.env.PORT;
@@ -7,7 +7,7 @@ const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 
 const app = express();
 app.use(express.json());
-app.use(express.static("public")); // Serve static files from the public
+app.use(express.static("public")); // Serve static files from public
 
 app.post("/summarize", (req, res) => {
   const text = req.body.text_to_summarize;
