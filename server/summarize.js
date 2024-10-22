@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-async function summarizeText(text) {
+const summarizeText = async (text) => {
   let data = JSON.stringify({
     inputs: text,
     parameters: {
@@ -27,6 +27,6 @@ async function summarizeText(text) {
   } catch (err) {
     console.log(err);
   }
-}
+};
 
 module.exports = summarizeText;
