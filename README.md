@@ -12,7 +12,7 @@ An application that leverages Natural Language Processing (NLP) to generate conc
 
 ## Prerequisites
 
-- A Hugging Face API key, which you can get for free by signing up at [Hugging Face](https://huggingface.co/). The API key will be used to access the summarization model
+- A Hugging Face Access Token, which you can get for free by signing up at [Hugging Face](https://huggingface.co/). The token will be used to access the summarization model
 
 ## Installation
 
@@ -38,7 +38,7 @@ An application that leverages Natural Language Processing (NLP) to generate conc
 
    ```bash
     PORT=your-port-number
-    ACCESS_TOKEN=your-hugging-face-api-key
+    ACCESS_TOKEN=your-hugging-face-access-token
    ```
 
 5. **Start the server**
@@ -48,7 +48,7 @@ An application that leverages Natural Language Processing (NLP) to generate conc
 
 ### Using Hugging Face
 
-The app uses Hugging Face's Inference API to access Facebook's "bart-large-cnn" model for text summarization. Hugging Face is a community-driven platform that hosts numerous open-source models and datasets. It is like the "GitHub of AI." With a free API key, you can experiment with a variety of models for different tasks, including text classification and image generation.
+The app uses Hugging Face's Inference API to access Facebook's "bart-large-cnn" model for text summarization. Hugging Face is a community-driven platform that hosts numerous open-source models and datasets. It is like the "GitHub of AI." With a free access token, you can experiment with a variety of models for different tasks, including text classification and image generation.
 
 ### Contact
 
